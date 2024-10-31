@@ -1447,7 +1447,11 @@ input[type="radio"]:checked + label {
     .work_draw:nth-child(3n) {
         margin: 10px; /* 每排第一個項目去掉左邊的間距 */
     }
-
+    #ooo{
+        width: 100px;
+        height: 100px;
+        animation: rotate 0.8s ease-out infinite;
+    }
     
 
 }
