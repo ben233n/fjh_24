@@ -31,7 +31,7 @@ let model_b=0;
 const model_3=["./img/阿尼亞.gif","./img/有馬加奈.gif"];
 let model_c=0;
 
-const transitionTime = 100;
+const transitionTime = 500;
 // 下面是第一個容器的三角形
 triangle_1_L.addEventListener("click",function(){
     if(model_a< model_1.length-1)
