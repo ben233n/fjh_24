@@ -351,8 +351,9 @@ body{
     align-items: center;
     transition: all 0.3s;
     opacity: 1;
-    background-color: black;
+/*     background-color: black; */
     position: relative;
+    background-image: url(../img/等待.gif);
 }
 .triangle_box_box{
     width: 100%;
