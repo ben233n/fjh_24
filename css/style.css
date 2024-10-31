@@ -437,7 +437,7 @@ body{
     color: #ede7e1;
     text-decoration: none;
     background-color: #a59482;
-    transition: transform 0.2s; /* 過渡效果 */
+    transition: all 0.2s; /* 過渡效果 */
 }
 .article_2_a:hover{
     color: #a59482;
