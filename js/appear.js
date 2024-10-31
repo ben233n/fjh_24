@@ -3,7 +3,7 @@ var article_main_down=document.getElementsByClassName('article_main_down');
 var article_main_top=document.getElementsByClassName('article_main_top');
 let article_2_text=document.getElementsByClassName('article_2_text');
 let article_1=document.getElementsByClassName('article_1');
-
+let article_1_p_p=document.getElementsByClassName('article_1_p_p');
 
 
 window.addEventListener("scroll",function(){
@@ -62,6 +62,15 @@ window.addEventListener("scroll",function(){
 });
 
 
+window.addEventListener("scroll",function() {
+    Array.from(article_1_p_p).forEach(function(element_text) {
+        if (element_text.getBoundingClientRect().top < window.innerHeight * 0.9) {
+            element_text.classList.add("appear_left");
+        } else {
+            element_text.classList.remove("appear_left");
+        }
+    });
+});
 
 
 
