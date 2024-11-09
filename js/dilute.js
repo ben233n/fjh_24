@@ -28,7 +28,7 @@ const model_1=["./img/如果發生火燒厝.jpg","./img/紙籃球.jpg","./img/�
 let model_a=0;
 const model_2=["./img/繪畫作品圖.png","./img/沅錡寬.png"];
 let model_b=0;
-const model_3=["./img/阿尼亞.gif","./img/有馬加奈.gif"];
+const model_3=["./img/阿尼亞.gif","./img/有馬加奈.gif","./img/羅馬城.gif"];
 let model_c=0;
 
 const transitionTime = 500;
