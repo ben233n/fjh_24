@@ -9,6 +9,7 @@ var hakari=document.getElementById("hakari");
 var anya3d=document.getElementById("anya3d");
 var kana3d=document.getElementById("kana3d");
 var loma3d=document.getElementById("loma3d");
+var yuyuko3d=document.getElementById("yuyuko3d");
 
 // 選單按鈕
 var menu=document.getElementById("menu");
@@ -106,6 +107,15 @@ loma3d.addEventListener("click",function(){
     chacha.style.display= "block";
 });
 
+yuyuko3d.addEventListener("click",function(){
+    slideshow.src="./img/西行寺幽幽子.gif";
+    slideshow.onload=function(){
+        slideshow.style.opacity = 1;
+    };
+    img_bg.style.display= "block";
+    chacha.style.display= "block";
+});
+
 
 
 // 叉叉被點擊
@@ -129,3 +139,4 @@ img_bg.addEventListener("click",function(){
     img_bg.style.display= "none";
     chacha.style.display= "none";
 });
+
