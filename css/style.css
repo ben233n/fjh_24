@@ -1395,6 +1395,11 @@ input[type="radio"]:checked + label {
     .money_title_word{
         font-size: 1.3rem;
     }
+    #ooo{
+        width: 100px;
+        height: 100px;
+        animation: rotate 0.8s ease-out infinite;
+    }    
     
 
 
